@@ -1,0 +1,17 @@
+ .header-btn{
+    background-image: linear-gradient(to right,var(  --color-LimeGreen),var(  --color-BrightCyan));
+    padding: 0.5rem 1.1rem ;
+    border-radius: 2rem;
+  color: var(--color-White); 
+  cursor: pointer; 
+  transition: all 0.3s ease;
+  
+  }
+   .header-btn:hover{
+    opacity: 0.5;
+  }
+  @media (max-width:767px){
+    .header-btn{
+        display: none;
+    }
+  }
